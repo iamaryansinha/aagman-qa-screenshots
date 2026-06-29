@@ -1,0 +1,101 @@
+{
+  "run_id": "2026-06-29-231954-prod-backtest-5-prompts-3d4d98",
+  "timestamp": "2026-06-29T17:58:30.588279+00:00",
+  "env": "prod",
+  "base_url": "https://app.aagman.ai",
+  "manifest": "backtest-5-prompts",
+  "total": 5,
+  "pass": 2,
+  "fail": 3,
+  "blocked": 0,
+  "error": 0,
+  "tests": [
+    {
+      "id": "bt-01-bull-call-spread-niftybank",
+      "status": "FAIL",
+      "duration_sec": 77.69,
+      "message": "Backtest error marker detected: Backtest failed",
+      "screenshots": [
+        "reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-01-bull-call-spread-niftybank_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt: Backtest a bull call spread options strategy on NIFTY BANK (NSE) from 1 January ...",
+        "Agent asked to run risk checks",
+        "Sent: run risk checks",
+        "Agent asked to run backtest",
+        "Sent: run backtest",
+        "Screenshot captured: reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-01-bull-call-spread-niftybank_fail.png"
+      ]
+    },
+    {
+      "id": "bt-02-ema-crossover-rsi-reliance",
+      "status": "PASS",
+      "duration_sec": 82.04,
+      "message": "",
+      "screenshots": [],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt: Backtest a long-only EMA crossover strategy on RELIANCE (NSE) from 1 January 202...",
+        "Agent asked to run risk checks",
+        "Sent: run risk checks",
+        "Agent asked to run backtest",
+        "Sent: run backtest",
+        "Success marker found: TOTAL PNL"
+      ]
+    },
+    {
+      "id": "bt-03-macd-bearish-short-tcs",
+      "status": "PASS",
+      "duration_sec": 67.86,
+      "message": "",
+      "screenshots": [],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt: Backtest a short-only MACD bearish crossover strategy on TCS (NSE) from 1 Januar...",
+        "Agent asked to run risk checks",
+        "Sent: run risk checks",
+        "Agent asked to run backtest",
+        "Sent: run backtest",
+        "Success marker found: TOTAL PNL"
+      ]
+    },
+    {
+      "id": "bt-04-short-straddle-nifty",
+      "status": "FAIL",
+      "duration_sec": 40.95,
+      "message": "Backtest error marker detected: Backtest failed",
+      "screenshots": [
+        "reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-04-short-straddle-nifty_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt: Backtest a short straddle options strategy on NIFTY (NSE) from 1 January 2025 to...",
+        "Agent asked to run risk checks",
+        "Sent: run risk checks",
+        "Agent asked to run backtest",
+        "Sent: run backtest",
+        "Screenshot captured: reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-04-short-straddle-nifty_fail.png"
+      ]
+    },
+    {
+      "id": "bt-05-portfolio-momentum-nifty50",
+      "status": "FAIL",
+      "duration_sec": 241.12,
+      "message": "Timeout waiting for backtest report card. Last page text:\nBacktest\nLive\nResearch\nCharts\nOptions\nPulse\nBacktest\nNew Backtest\n\u2726\nWelcome to \u0100agman\nSAMPLE\nRSI on RELIANCE \u00b7 1y\nBacktest a short...\nBacktest a short-only...\nBacktest a long-only...\nBacktest a bull...\nBacktest a bull...\nBacktest a portfolio...\nBacktest a short...\nBacktest a short-only...\nBacktest a long-only...\nBacktest a bull...\nBacktest a long-only...\nBacktest a bull...\nBacktest a short...\nBacktest a long-call...\nBacktest an iron...\nBacktest a short...\nBacktest a long-call...\nBacktest a bull...\nBacktest a short...\nBacktest a long-call...\nBacktest a short...\nBacktest a long-call...\nBacktest a long-only...\nBacktest a long-only...\nBacktest a long-only...\nBuy HDFCBANK when...\nBacktest a long...\nFind NESTLEIND where...\nBacktest a long-only...\nBacktest a long-only...\nBacktest a long-only...\nB",
+      "screenshots": [
+        "reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-05-portfolio-momentum-nifty50_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt: Backtest a portfolio of the top 3 stocks from RELIANCE, TCS, INFY, HDFCBANK, ICI...",
+        "Screenshot captured: reports/2026-06-29-231954-prod-backtest-5-prompts-3d4d98/screenshots/bt-05-portfolio-momentum-nifty50_fail.png"
+      ]
+    }
+  ]
+}
