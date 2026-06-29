@@ -1,0 +1,242 @@
+{
+  "run_id": "2026-06-30-011721-prod-pr-regression-smoke-c32369",
+  "timestamp": "2026-06-29T19:56:47.940977+00:00",
+  "env": "prod",
+  "base_url": "https://app.aagman.ai",
+  "manifest": "pr-regression-smoke",
+  "total": 13,
+  "pass": 1,
+  "fail": 12,
+  "blocked": 0,
+  "error": 0,
+  "tests": [
+    {
+      "id": "pr-2182-iron-condor-nifty50",
+      "status": "FAIL",
+      "duration_sec": 240.19,
+      "message": "Run Risk Checks button not found",
+      "prompt": "Backtest an iron condor on NIFTY 50, monthly expiry, from 1 June 2025 to 4 May 2026\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2182-iron-condor-nifty50_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt (round 1): Backtest an iron condor on NIFTY 50, monthly expiry, from 1 June 2025 to 4 May 2...",
+        "Strategy card ready; clicking Run Risk Checks",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2182-iron-condor-nifty50_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2182-short-straddle-banknifty",
+      "status": "FAIL",
+      "duration_sec": 240.27,
+      "message": "Run Risk Checks button not found",
+      "prompt": "Backtest a short straddle on Bank Nifty, weekly expiry, from 1 January 2025 to 30 April 2025\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2182-short-straddle-banknifty_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Submitted prompt (round 1): Backtest a short straddle on Bank Nifty, weekly expiry, from 1 January 2025 to 3...",
+        "Strategy card ready; clicking Run Risk Checks",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2182-short-straddle-banknifty_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2185-niftybees-5m",
+      "status": "FAIL",
+      "duration_sec": 6.11,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest an opening-range breakout on NIFTYBEES on a 5-minute timeframe from 1 Jan 2025 to 30 Apr 2025\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2185-niftybees-5m_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2185-niftybees-5m_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2190-crudeoil-continuous",
+      "status": "FAIL",
+      "duration_sec": 5.9,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest a CRUDEOIL continuous futures breakout strategy on a 1-day timeframe from 1 Jan 2024 to 31 Dec 2024\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2190-crudeoil-continuous_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2190-crudeoil-continuous_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2192-nifty-straddle-5m",
+      "status": "FAIL",
+      "duration_sec": 5.86,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest a NIFTY long straddle ATM nearest expiry on 5-minute bars for 2026-03-30\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2192-nifty-straddle-5m_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2192-nifty-straddle-5m_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2193-infy-this-quarter",
+      "status": "FAIL",
+      "duration_sec": 5.95,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Run a 30-minute RSI mean-reversion backtest on INFY this quarter\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2193-infy-this-quarter_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2193-infy-this-quarter_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2193-reliance-last-6m",
+      "status": "FAIL",
+      "duration_sec": 6.08,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest a 20/50 EMA crossover on RELIANCE over the last 6 months\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2193-reliance-last-6m_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2193-reliance-last-6m_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2202-sip-last-3y",
+      "status": "FAIL",
+      "duration_sec": 5.99,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest a monthly SIP of \u20b910,000 into Parag Parikh Flexi Cap over the last 3 years\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2202-sip-last-3y_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2202-sip-last-3y_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2207-iron-condor-nifty-generic",
+      "status": "FAIL",
+      "duration_sec": 6.23,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Backtest an iron condor on NIFTY for the last 3 months\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2207-iron-condor-nifty-generic_fail.png"
+      ],
+      "logs": [
+        "Navigated to Backtest",
+        "Started a new backtest chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2207-iron-condor-nifty-generic_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2211-axis-vs-icici-smallcap",
+      "status": "FAIL",
+      "duration_sec": 6.27,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Compare the underlying stocks of Axis Small Cap Fund vs ICICI Small Cap Fund\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2211-axis-vs-icici-smallcap_fail.png"
+      ],
+      "logs": [
+        "Navigated to Research",
+        "Started a new screener chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2211-axis-vs-icici-smallcap_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2210-top-holdings-icici-smallcap",
+      "status": "FAIL",
+      "duration_sec": 6.33,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "Top holdings of ICICI Small Cap Fund\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2210-top-holdings-icici-smallcap_fail.png"
+      ],
+      "logs": [
+        "Navigated to Research",
+        "Started a new screener chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-2210-top-holdings-icici-smallcap_fail.png"
+      ]
+    },
+    {
+      "id": "pr-hybrid-rode-macd",
+      "status": "FAIL",
+      "duration_sec": 6.23,
+      "message": "Could not find Aagman chat input textarea",
+      "prompt": "ROE > 10 stocks that are showing bullish MACD crossover\n",
+      "title": "",
+      "description": "",
+      "screenshots": [
+        "reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-hybrid-rode-macd_fail.png"
+      ],
+      "logs": [
+        "Navigated to Research",
+        "Started a new screener chat",
+        "Screenshot captured: reports/2026-06-30-011721-prod-pr-regression-smoke-c32369/screenshots/pr-hybrid-rode-macd_fail.png"
+      ]
+    },
+    {
+      "id": "pr-2202-chart-reliance-6m",
+      "status": "PASS",
+      "duration_sec": 13.53,
+      "message": "",
+      "prompt": "",
+      "title": "Chart RELIANCE daily last 6 months",
+      "description": "Verify chart loads and cycles timeframes; date window should end near today.",
+      "screenshots": [],
+      "logs": [
+        "Navigated to Charts",
+        "Chart canvas present",
+        "Timeframe 1d: clicked",
+        "Timeframe 1w: clicked",
+        "Timeframe 1m: clicked",
+        "Indicator SMA: added",
+        "Indicator EMA: added",
+        "Indicator labels not immediately visible; active labels: []"
+      ]
+    }
+  ]
+}
